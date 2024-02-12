@@ -1,13 +1,21 @@
-header {
-    background-color: crimson;
-}
+{padding: 0;
+margin: 0;
+box-sizing:border-box;}
 
-
-main {
-    background-color: darkblue;
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    color: black;
+font-family:'lato', sans-serif;
 }
 
 
 footer {
-    background-color: cadetblue;
+    background-color: brown;
 }
+
+h1 (
+    font-family: 'oswald', Anton;
+
+)
