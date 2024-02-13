@@ -1,21 +1,33 @@
-{padding: 0;
-margin: 0;
-box-sizing:border-box;}
 
 body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    color: black;
-font-family:'lato', sans-serif;
+
+    color: #3a3a3a;
+    font-family: 'Lato', Protest Strike;
 }
 
+h1 {
+    font-family: 'Oswald', Protest Strike;
+}
+
+header {
+    background-color: rgb(248, 248, 248);
+}
+
+main {
+    background-color:rgb(247, 239, 229)
+    flex: 1 0 auto;
+}
 
 footer {
-    background-color: brown;
+    background-color: orange;
 }
 
-h1 (
-    font-family: 'oswald', Anton;
-
-)
+background-color; rgb(247, 239, 229)
+padding: 0 1rem;
+position: fixed;
+z-index: 99;
+width: 100%;
+box-shadow: 0 2px 2px #3a3a3a;
